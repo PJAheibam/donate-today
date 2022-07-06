@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url(./img/images/donation13.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 0;
+  color: white;
+}
+
+.body-section {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 0 13rem;
+  margin-bottom: 2em;
+}
+
+.button {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin: 1em auto;
+  padding: 0.5rem 1rem;
+  background-color: hsl(0, 100%, 67%);
+  border-radius: 0.3em;
+}
+
+.flex {
+  display: flex;
+  padding: 1rem 5rem;
+}
+.amount-container {
+  display: flex;
+}
+.amounts {
+  display: flex;
+  margin: 0 auto;
+}
+.amount {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  border-radius: 0.5em;
+  /* background-color: hsl(0, 100%, 95%);
+  border: 2px solid hsl(0, 100%, 67%); */
+}
+#selected {
+  background-color: hsl(0, 100%, 95%);
+  border: 2px solid hsl(0, 100%, 67%);
+}
+.input {
+  font-size: 1.5rem;
+  width: 55%;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid hsl(0, 0%, 70%);
+}
+
+.body-title {
+  font-size: 2.5rem;
+}
+.body-description {
+  font-size: 1.3rem;
+  padding: 0 15rem;
+}
+
+.card {
+  /* height: 360px; */
+  width: 300px;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem auto;
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.card img {
+  width: 100px;
+}
+.card h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+}
+.card p {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.email-container {
+  margin: 2rem 10rem;
+  display: flex;
+  height: 200px;
+  background-color: hsl(44, 100%, 92%);
+  border-radius: 10px;
+}
+.email-container input {
+  margin: auto 0;
+  margin-left: auto;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  padding: 0.5em 1em;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid hsl(0, 100%, 67%);
+  border-right: none;
+}
+.email-container button {
+  height: 57px;
+  margin: auto 0;
+  margin-right: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: hsl(0, 100%, 67%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+footer {
+  height: fit-content;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(230, 35%, 7%);
+  padding: 1.5rem 2rem 0.5rem 2rem;
+  margin-top: 2rem;
+}
+.hero {
+  color: hsl(0, 100%, 67%);
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  margin: 0 auto;
+  padding: 0 5rem;
+  width: 60%;
+}
+.links {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.links h2 {
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 100%, 90%);
+}
+.link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.copyright-text {
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-top: 2px solid hsla(0, 0%, 100%, 0.445);
+  padding-top: 0.5rem;
+}
