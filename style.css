@@ -82,8 +82,7 @@ body {
   padding: 1em 1em;
   margin: 1em 1em;
   border-radius: 0.5em;
-  /* background-color: hsl(0, 100%, 95%);
-  border: 2px solid hsl(0, 100%, 67%); */
+  background-color: hsl(0, 0%, 95%);
 }
 #selected {
   background-color: hsl(0, 100%, 95%);
