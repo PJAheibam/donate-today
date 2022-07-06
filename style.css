@@ -236,7 +236,7 @@ footer {
 .half-width img {
   height: 300px;
   border-radius: 5px;
-  margin: auto 4rem;
+  margin: auto;
 }
 .text-center {
   text-align: center;
