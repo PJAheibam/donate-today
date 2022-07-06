@@ -22,7 +22,8 @@ body {
   padding: 0;
 }
 .header {
-  background-image: url(./img/images/donation13.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(50, 50, 50, 0.8)),
+    url(./img/images/donation13.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
