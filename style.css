@@ -78,12 +78,15 @@ body {
   margin: 0 auto;
 }
 .amount {
+  color: #000;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
+  font-weight: bold;
   padding: 1em 1em;
   margin: 1em 1em;
   border-radius: 0.5em;
   background-color: hsl(0, 0%, 95%);
+  border: none;
 }
 #selected {
   background-color: hsl(0, 100%, 95%);
