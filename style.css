@@ -136,6 +136,7 @@ body {
   display: flex;
   height: 200px;
   background-color: hsl(44, 100%, 92%);
+
   border-radius: 10px;
 }
 .email-container input {
@@ -150,6 +151,7 @@ body {
   border-bottom-left-radius: 10px;
   border: 2px solid hsl(0, 100%, 67%);
   border-right: none;
+  outline: none;
 }
 .email-container button {
   height: 57px;
