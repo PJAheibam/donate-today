@@ -111,22 +111,25 @@ body {
 }
 
 .card {
-  /* height: 360px; */
+  height: fit-content;
+  min-height: 320px;
   width: 300px;
   border-radius: 10px;
-  padding: 1.5rem;
+  padding-bottom: 1.5rem;
   margin: 1rem auto;
 }
-.card img {
+.card-icon {
   width: 100px;
 }
 .card h2 {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
+  padding: 0 1.5rem;
 }
 .card p {
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
+  padding: 0 1.5rem;
 }
 .email-container {
   margin: 2rem 10rem;
@@ -239,4 +242,32 @@ footer {
 .margin-inline-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.cover-pic {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.read-more {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  color: hsl(0, 100%, 67%);
+  padding: 0 1.5rem;
+}
+.blog-container {
+  width: 100%;
+  padding: 0;
+}
+.arrow-button {
+  border-radius: 5px;
+  background-color: hsl(0, 100%, 90%);
+  height: 80px;
+  margin: auto;
+  border: 2px solid hsl(0, 100%, 67%);
+}
+.arrow-icon {
+  width: 30px;
 }
